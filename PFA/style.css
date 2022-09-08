@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.T {
+    color: red;
+}
+
+h5 {
+    color: #fff;
+}
+
+#form {
+    background-color: rgba(0, 0, 0, 0.728);
+    border-radius: 15px;
+    height: 300px;
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    opacity: 10;
+}
+
+#first-group {
+    border: none;
+    width: 350px;
+    margin-top: 38px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+#content {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 10px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    padding: 5px;
+}
+
+#content #input-group {
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 8px;
+    width: 300px;
+    color: rgb(0, 0, 0);
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.fa {
+    display: inline-block;
+    color: red;
+    border-right: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    margin-left: 8px;
+}
+
+#second-group {
+    border: none;
+    width: 300px;
+    margin-top: 10px;
+    padding-top: 38px;
+    margin-left: 440px;
+}
+
+
+
+/* lcjaa*/
+.header {
+    min-height: 5vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 1% 5%;
+    justify-content: space-between;
+    background-color: #032e60;
+    padding-bottom: 0%;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 2px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    margin: auto;
+    transition: 0.2s;
+}
+
+/*hadi*/
+.A::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    margin: auto;
+    transition: 0.2s;
+    width: 80%;
+}
+
+label {
+    text-decoration: underline;
+}
+
+.nav-links ul li:hover::after {
+    width: 80%;
+}
+
+label {
+    font-family: Georgia, serif;
+}
+
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 13%;
+}
+
+i {
+    color: white;
+    margin-right: 30px;
+}
+
+h2 {
+    color: white;
+    size: 100px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+
+body {
+    background-image: linear-gradient(#00CFAA, #0079cf);
+}
