@@ -19,7 +19,7 @@
             <a href="index.html"></a>
             <div class="nav-links" >
                 <ul>
-                    <strong><div><li><a href="mainvol.php" target="courses"  style="font-family: Georgia, serif;">Vol</a></li></strong>
+                    <strong><div><li><a href="mainvol.php" target="courses"  style="font-family: Georgia, serif;">V ol</a></li></strong>
                     <strong><li><a href="mainvoiture.php" style="font-family: Georgia, serif;">Voiture</a></li></strong>
                     <strong><li><a href="mainhotel.php" style="font-family: Georgia, serif;">Hôtel</a></li></strong>
                     <strong><li><a href="" style="font-family: Georgia, serif;">À propos</a></li></strong>
